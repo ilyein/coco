@@ -25,5 +25,4 @@ async def on_message(message):
         bug = getABug(arg, mongo_client.cocodb)
         await message.channel.send(bug)
 
-
-discord_client.run('NzAxMTAzNTczMTMxNDYwNjUw.XpsoNQ.et8nu0D1Btp1d9yJcL_xwcxTHAs')
+#redacted client token (TODO add to environment on startup)
